@@ -1,0 +1,5 @@
+export const ROUTE_HOME = '/'
+export const ROUTE_DIARY = ROUTE_HOME + 'diary'
+export const ROUTE_RECOMMENDATION = ROUTE_HOME + 'recommendation'
+export const ROUTE_PROFILE = ROUTE_DIARY + 'profile'
+export const ROUTE_IN_DEVELOPING = ROUTE_HOME + 'indeveloping'

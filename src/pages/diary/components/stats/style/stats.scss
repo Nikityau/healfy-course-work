@@ -1,0 +1,37 @@
+.stats {
+
+}
+
+.stats_highlight {
+  .stats-num {
+    font-size: 36px;
+
+    color: #FB6C2F;
+  }
+}
+
+.stats-num,
+.stats-title {
+  text-align: center;
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #FAF7F6;
+}
+
+.stats-num {
+
+}
+
+.stats-title {
+  font-weight: 300;
+  font-size: 12px;
+
+  letter-spacing: -0.02em;
+
+  color: #858585;
+}

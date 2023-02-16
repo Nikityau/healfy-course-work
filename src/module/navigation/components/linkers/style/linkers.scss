@@ -1,0 +1,25 @@
+.linkers {
+  border: 1px solid transparent;
+  border-radius: 20px;
+
+  transition: all .3s linear;
+
+  padding: 6px 10px;
+}
+.linkers a {
+  text-decoration: none;
+}
+
+.linkers span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+
+  color: #FAF7F5;
+}
+
+.linkers_current {
+  border-color: #FB6C2F;
+}

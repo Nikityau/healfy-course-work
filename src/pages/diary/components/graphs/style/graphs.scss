@@ -1,0 +1,50 @@
+.graphs {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.graphs__graph {
+  position: relative;
+
+  width: 80px;
+  height: 1px;
+
+  background: #454545;
+}
+.graphs__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 30px;
+  height: 2px;
+
+  border-radius: 18px;
+
+  background: #FAF7F5;
+}
+
+.graphs__title,
+.graphs__indexes {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+
+  text-align: center;
+
+  letter-spacing: -0.02em;
+
+  color: #DFDDDB;
+}
+
+.graphs__title {
+
+}
+.graphs__indexes {
+  font-weight: 400;
+
+  color: #DFDDDB;
+}
